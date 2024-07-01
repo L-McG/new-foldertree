@@ -1,0 +1,62 @@
+{
+    "region1": {
+        "zone1": {
+            "clients": {
+                "dept1": {},
+                "dept2": {},
+                "dept3": {},
+                "dept4": {},
+                "dept5": {},
+                "dept6": {}
+            },
+            "servers":
+            {
+                "domain-controllers": {},
+                "exchange": {},
+                "pki": {},
+                "citrix-site": {}
+            }
+        },
+        "zone2": {
+            "clients": {
+                "dept1": {},
+                "dept2": {},
+                "dept3": {},
+                "dept4": {},
+                "dept5": {},
+                "dept6": {}
+            },
+            "servers":
+            {
+                "domain-controllers": {},
+                "exchange": {},
+                "pki": {},
+                "citrix-site": {}
+            }
+        }
+    },
+    "region2":{
+        "zone1": {},
+        "zone2": {},
+        "zone3": {
+            "nas-appliances": {}
+        }
+    },
+    "region3": {
+        "zone1": {
+            "management-appliances": {
+                "monitors": {
+                    "logs": {},
+                    "ids": {},
+                    "compute": {}
+                }
+            }
+        },
+        "zone2": {
+            "diablo-ii": {}
+        },
+        "zone3": {
+            "doom-iii": {}
+        }
+    }
+}
